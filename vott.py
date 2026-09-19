@@ -23,12 +23,12 @@ from telegram.ext import (
 from telegram.request import HTTPXRequest
 
 # ================= CONFIG ================= #
-TOKEN = ""
-BOT_USERNAME = "sahilvotebot"
-OWNER_ID = 8695946179
+TOKEN = "8790948835:AAHcolC18K13RTgpaj7os_dpKDPf_jcckeM"
+BOT_USERNAME = "votesarena_bot"
+OWNER_ID = 7638053663
 
 # ================= AUTO BACKUP CONFIG ================= #
-BACKUP_CHANNEL_ID = -1003978116236   # jaha auto DB jayega (bot yaha admin hona chahiye)
+BACKUP_CHANNEL_ID = -1004492262212   # jaha auto DB jayega (bot yaha admin hona chahiye)
 AUTO_BACKUP_MINUTES = 30             # har kitne minute me DB bheje
 KEEP_LAST_BACKUPS = 1                # channel me kitne latest backup rakhne hai, baaki delete
 BACKUP_IDS_FILE = "backup_msgs.json" # purane backup message id yaha store hote hai
