@@ -1,0 +1,7 @@
+bot_data.json
+backup_msgs.json
+bot_data.json.tmp
+bot_data.json.corrupt
+__pycache__/
+*.pyc
+.env
