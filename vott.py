@@ -2603,6 +2603,7 @@ def main():
     # The Telegram bot continues using polling in the same process.
     health_server = start_health_server()
     try:
+        app.bot.delete_webhook(drop_pending_updates=False)
         app.run_polling(allowed_updates=["message", "callback_query", "chat_member"])
     finally:
         health_server.shutdown()
